@@ -1,0 +1,12 @@
+[package]
+name = "ribbonhut"
+version = "0.1.0"
+authors = ["Chris Allen <cma@bitemyapp.com>"]
+
+[dependencies]
+select = "0.4.2"
+
+[[test]]
+name = "ribbonhut-test"
+harness = false
+path = "tests/main.rs"
